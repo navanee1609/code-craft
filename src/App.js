@@ -1,9 +1,15 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import { HomeScreen } from './screens/HomeScreen'
+import { PlaygroundScreen } from './screens/PlaygroundScreens'
 
 function App() {
   return (
     <>
-    <h2>Code craft</h2>
+    <Routes>
+      <Route path='/' element={<HomeScreen/>}/>
+      <Route path='/playground' element={<PlaygroundScreen/>}/>
+    </Routes>
     </>
   )
 }
