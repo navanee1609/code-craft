@@ -1,5 +1,5 @@
 import './index.scss'
-
+import RightComponent from './RightComponent/index.js'
 export const HomeScreen=()=>{
     return (
         <div className='home-container'>
@@ -15,9 +15,7 @@ export const HomeScreen=()=>{
                 </div>
                 
             </div>
-            <div className='right-container'>
-                <h2>Right Container</h2>
-            </div>
+            <RightComponent/>
 
         </div>
     )
