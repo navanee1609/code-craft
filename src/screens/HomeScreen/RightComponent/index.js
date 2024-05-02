@@ -1,6 +1,9 @@
-import React from 'react'
 import './index.scss'
-function index() {
+
+
+
+function RightComponent() {
+  
   return (
     <div className='right-container'>
       <div className='header'>
@@ -170,4 +173,4 @@ function index() {
   )
 }
 
-export default index
+export default RightComponent
